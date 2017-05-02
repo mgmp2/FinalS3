@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+    box-sizing: border-box;
+}
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  left: 7%;
+  top: 14px;
+  background: url(../img/recursos/logo-white.png);
+  padding: 3.4%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 103px;
+}
+header {
+  height: 100px;
+  margin-top: -21px;
+  width: 100%;
+}
+video{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: -100;
+}
+.header-in{
+  background-color: rgba(247, 182, 23, 0.81);
+}
+
+/*---------Estilos del Menu---------*/
+.nav-header {
+  position: relative;
+}
+.solid #logo .logo {
+  background-image: url(../img/recursos/logo-pink.png);
+}
+
+.menu {
+    list-style: none;
+    padding: 14px 15%;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    right: 0;
+
+
+}
+.menu-link {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 21px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Javascript style toggle for menu appear and desappear style background*/
+.solid #toggle .menu {
+  background: #fff;
+}
+.solid #toggle .menu:after{
+  background-color: #fff;
+}
+.solid #toggle .menu:before{
+  background-color: #fff;
+}
+
+  /*--------------------FORMULARIO --------------------*/
+.contenedor-main {
+  background: #fff;
+  float: right;
+  padding: 63px;
+  width: 40%;
+}
+.form-titulo {
+  color: #352384;
+}
+.form-txt {
+  color: #728099;
+}
+.form-view [type="text"]{
+  border: none;
+  border-bottom: 2px solid #352384;
+  margin-bottom: 21px;
+  width: 100%;
+}
+.box-input [type="text"]{
+  border: none;
+  border-bottom: 2px solid #352384;
+  margin-bottom: 21px;
+  width: 100%;
+}
+#btn-reset {
+  background-color: #ff00bf;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+}
+
+
+/*-----------SEGUNDA SECCION -----------*/
+.segunda-parte {
+  background: linear-gradient(#76278f,#2b1e66);
+}
