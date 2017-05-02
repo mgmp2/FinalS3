@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 *{
     box-sizing: border-box;
 }
@@ -7,7 +9,9 @@ body{
   margin:0;
   font-family: 'Montserrat', sans-serif;
 }
-
+h2{
+  font-size: 35px;
+}
 .logo {
   left: 7%;
   top: 14px;
@@ -23,15 +27,17 @@ header {
   width: 100%;
 }
 video{
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-
-  z-index: -100;
+  position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -200;
+      top: 0px;
+      left: 0;
 }
 .header-in{
   background-color: rgba(247, 182, 23, 0.81);
 }
+
 
 /*---------Estilos del Menu---------*/
 .nav-header {
@@ -79,6 +85,7 @@ video{
 }
 .form-titulo {
   color: #352384;
+  font-size: 42px;
 }
 .form-txt {
   color: #728099;
@@ -110,4 +117,86 @@ video{
 /*-----------SEGUNDA SECCION -----------*/
 .segunda-parte {
   background: linear-gradient(#76278f,#2b1e66);
+    position: absolute;
+    width: 100%;
+    margin-top: 45%;
+}
+div > .second-left {
+  float: left;
+  padding: 5% 10%;
+  color: white;
+
+}
+
+.second-left > div > p{
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+}
+div > .second-right {
+  float: right;
+  background: url(../img/recursos/phone.png);
+  padding: 17.4%;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  margin-top: 50px;
+  margin-right: 10%;
+
+}
+/*------------------TERCERA PARTE ------------------*/
+.third-part {
+  position: absolute;
+  width: 100%;
+  margin-top: 88%;
+  background: #fff;
+  height: 506px;
+}
+.third-left{
+  float: left;
+  width: 35%;
+  height: 169%;
+  background: #fff;
+  padding: 80px;
+  padding-bottom: 9%;
+}
+.third-txt {
+  font-size: 21px;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+
+}
+.third-right{
+  float: right;
+    width: 65%;
+
+
+}
+/*--------------------------CUARTA PARTE --------------------------*/
+.fourth-part {
+  position: ABSOLUTE;
+    width: 100%;
+    margin-top: 118.5%;
+    background: #694444;
+    height: 515px;
+}
+
+.fourth-left{
+  float: left;
+    width: 65%;
+
+}
+.fourth-txt {
+  font-size: 21px;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+
+}
+.fourth-right{
+  float: right;
+  width: 35%;
+  height: 169%;
+  background: #fff;
+  padding: 80px;
+  padding-bottom: 9%;
 }
