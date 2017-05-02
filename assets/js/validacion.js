@@ -31,7 +31,7 @@ function validarNombre(){
   if(!expRegName.test(nom.value) ){
     nom.classList.add("x-icon");
   } else{
-    phone.classList.remove("x-icon");
+    nom.classList.remove("x-icon");
   }
 }
 function validarMail(){
