@@ -150,7 +150,7 @@ div > .second-right {
   background: #fff;
   height: 506px;
 }
-.third-left{
+.third-left, .fifth-left{
   float: left;
   width: 35%;
   height: 169%;
@@ -158,14 +158,14 @@ div > .second-right {
   padding: 80px;
   padding-bottom: 9%;
 }
-.third-txt {
+.third-txt, .fifth-txt, .fourth-txt {
   font-size: 21px;
   font-weight: 100;
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
 
 }
-.third-right{
+.third-right, .fifth-right{
   float: right;
     width: 65%;
 
@@ -185,13 +185,7 @@ div > .second-right {
     width: 65%;
 
 }
-.fourth-txt {
-  font-size: 21px;
-  font-weight: 100;
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 2px;
 
-}
 .fourth-right{
   float: right;
   width: 35%;
@@ -199,4 +193,14 @@ div > .second-right {
   background: #fff;
   padding: 80px;
   padding-bottom: 9%;
+}
+/*--------------------------QUINTA PARTE --------------------------*/
+.fifth-part{
+  position: ABSOLUTE;
+    width: 100%;
+    margin-top: 148.5%;
+    background: #694444;
+}
+.fifth-left{
+  padding-bottom: 11.1%
 }
