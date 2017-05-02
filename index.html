@@ -25,13 +25,7 @@
           </nav>
       </div>
   </header>
-  <!-- <div id="banner">
-      <img src="" alt="" class="banner-img">
-      <div class="contenedor">
-          <h2 class="banner-titulo">Familia MENDOZA PILCO</h2>
-          <p class="banner-txt">A pesar de todo seguimos unidos!</p>
-      </div>
-  </div> -->
+
   <main class="main">
       <div class="contenedor-main">
         <video id="video-inicio" src="assets/img/recursos/hero-video.mp4" autoplay loop muted></video>
@@ -40,21 +34,22 @@
         <p class="form-txt">SIGN UP TO DRIVE WITH LYFT</p>
           <form action="" class="formulario">
             <div class="form-view">
-              <input type="text" placeholder="Phone number">
+              <input type="text" class="js-icon" placeholder="Phone number" id="telf">
+              <!-- <span  ></span> -->
 
             </div>
-            <div class="box-input">
+            <div id="box-input" class="hidden-input">
               <div>
-                <input type="text" placeholder="Name">
-
+                <input type="text" class="js-icon" placeholder="Name" id="nombre">
+                <!-- <span  ></span> -->
               </div>
               <div>
-                <input type="text" placeholder="Email">
-
+                <input type="text" class="js-icon" placeholder="Email" id="email">
+                <!-- <span  ></span> -->
               </div>
               <div>
-                <input type="text" placeholder="City">
-
+                <input type="text" class="js-icon" placeholder="City" id="ciudad">
+                <!-- <span  ></span> -->
               </div>
             </div>
             <div class="form-btn">
@@ -187,8 +182,9 @@
     </div>
   </footer>
 
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/js/validacion.js"></script>
 
-  <script type="text/javascript" src="assets/js/main.js">
 
   </script>
 </body>
