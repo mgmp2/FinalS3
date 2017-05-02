@@ -21,9 +21,24 @@ h2{
   position: absolute;
   background-size: 103px;
 }
+.logo-2 {
+  left: 7%;
+  top: 14px;
+  background: url(../img/recursos/logo-pink.png);
+  padding: 3.4%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 103px;
+}
 header {
   height: 100px;
-  margin-top: -21px;
+  width: 100%;
+  z-index: 1;
+  margin-top: 0;
+  position: fixed;
+  padding-top: 0px;
+  background: none;
+  transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
   width: 100%;
 }
 video{
@@ -35,7 +50,8 @@ video{
   left: 0;
 }
 .header-in{
-  background-color: rgba(247, 182, 23, 0.81);
+  background-color: white;
+  color: black;
 }
 
 
@@ -56,7 +72,9 @@ video{
     display: flex;
     position: absolute;
 
-
+  }
+.black {
+  color: black;
 }
 .menu-link {
     display: inline-block;
@@ -81,12 +99,14 @@ video{
 .contenedor-main {
   background: #fff;
   float: right;
-  padding: 63px;
-  width: 40%;
+  padding: 20px 63px;
+  width: 42%;
+  margin-top: 8%;
 }
 .form-titulo {
   color: #352384;
-  font-size: 42px;
+  font-size: 35px;
+  margin: 0;
 }
 .form-txt {
   color: #728099;
@@ -156,7 +176,7 @@ div > .second-right {
   width: 35%;
   height: 169%;
   background: #fff;
-  padding: 80px;
+  padding: 50px 80px;
   padding-bottom: 9%;
 }
 .third-txt, .fifth-txt, .fourth-txt {
@@ -192,7 +212,7 @@ div > .second-right {
   width: 35%;
   height: 169%;
   background: #fff;
-  padding: 80px;
+  padding: 50px 80px;
   padding-bottom: 9%;
 }
 /*--------------------------QUINTA PARTE --------------------------*/
@@ -249,7 +269,7 @@ footer{
 }
 
 .btn-line{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   height: 2px;
   background: white;
@@ -262,4 +282,5 @@ footer{
   display: block;
   width: 154px;
   margin-bottom: 35px;
+  margin-left: 84px;
 }
