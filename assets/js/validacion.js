@@ -1,7 +1,7 @@
 var phone = document.getElementById("telf");
 var nom = document.getElementById("nombre");
 var mail = document.getElementById("email");
-var ciudad = document.getElementById("ciudad");
+var ciud = document.getElementById("ciudad");
 var formMostrar = document.getElementById("box-input");
 var mostrarX = document.getElementsByClassName("js-icon");
 
@@ -13,17 +13,39 @@ phone.addEventListener("click", function(){
   formMostrar.classList.remove("hidden-input");
 });
 phone.addEventListener("blur", validarphone);
-nom.addEventListener("blur", validarNombre);
+nom.addEventListener("input", validarNombre);
+mail.addEventListener("input", validarMail);
+ciud.addEventListener("input", validadCiudad);
 
 
-function validarNombre(){
-  if(!expRegName.test(nom.value)){
-    alert("Se escribe con mayuscula");
+
+function validarphone(){
+  if(!expRegTelf.test(phone.value) ){
+    phone.classList.add("x-icon");
+  } else{
+    phone.classList.remove("x-icon");
   }
 }
 
-function validarphone(){
-  if(!expRegTelf.test(phone.value)){
-    alert("Se escribe sólo números");
+function validarNombre(){
+  if(!expRegName.test(nom.value) ){
+    nom.classList.add("x-icon");
+  } else{
+    phone.classList.remove("x-icon");
+  }
+}
+function validarMail(){
+  if (!expRegEmail.test(mail.value) ) {
+    mail.classList.add("x-icon");
+  } else{
+    mail.classList.remove("x-icon");
+  }
+}
+
+function validadCiudad(){
+  if (!expRegName.test(ciud.value) ) {
+    ciud.classList.add("x-icon");
+  } else{
+    ciud.classList.remove("x-icon");
   }
 }

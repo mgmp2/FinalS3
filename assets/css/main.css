@@ -291,3 +291,15 @@ footer{
   margin-bottom: 35px;
   margin-left: 84px;
 }
+
+
+
+/*nuevo icon */
+.x-icon{
+  background: url(../img/recursos/error.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  content: "";
+  text-align: right;
+
+}
