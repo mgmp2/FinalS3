@@ -12,15 +12,11 @@ var expRegEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 phone.addEventListener("click", function(){
   formMostrar.classList.remove("hidden-input");
 });
+nom.addEventListener("blur", validarNombre);
 
 
-if(!expRegName.test(nom.value)){
-      alert("Escribir correctamente \nCampo nombre");
-      // nom.focus();
-      // cont++;
-    }
-    else if(!expRegName.test(cuidad.value)){
-  alert("Escribir correctamente \nCampo apellido");
-  // ap.focus();
-  // cont++;
+function validarNombre(){
+  if(!expRegName.test(nom.value)){
+    alert("Se escribe con mayuscula");
+  }
 }
