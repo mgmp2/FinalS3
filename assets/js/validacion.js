@@ -13,9 +13,9 @@ phone.addEventListener("click", function(){
   formMostrar.classList.remove("hidden-input");
 });
 phone.addEventListener("blur", validarphone);
-nom.addEventListener("input", validarNombre);
-mail.addEventListener("input", validarMail);
-ciud.addEventListener("input", validadCiudad);
+nom.addEventListener("blur", validarNombre);
+mail.addEventListener("blur", validarMail);
+ciud.addEventListener("blur", validadCiudad);
 
 
 
