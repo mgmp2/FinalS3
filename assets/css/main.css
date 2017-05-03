@@ -77,13 +77,27 @@ video{
   color: black;
 }
 .menu-link {
+  margin-right: 20px;
     display: inline-block;
     flex-wrap: wrap;
     padding: 21px;
     color: #fff;
     text-decoration: none;
 }
-
+.border {
+  border-style: solid;
+  border-radius: 19px;
+  padding: 17px;
+}
+.pink{
+  border-style: solid;
+  border-radius: 19px;
+  border-color: #ff00bf;
+  padding: 17px;
+}
+.hidden {
+  visibility: hidden;
+}
 /*Javascript style toggle for menu appear and desappear style background*/
 .solid #toggle .menu {
   background: #fff;
@@ -111,6 +125,9 @@ video{
 .form-txt {
   color: #728099;
 }
+.form-view {
+  position: relative;
+}
 .form-view [type="text"]{
   border: none;
   border-bottom: 2px solid #352384;
@@ -119,6 +136,9 @@ video{
 }
 .hidden-input {
   display: none;
+}
+#box-input > div {
+  position: relative;
 }
 #box-input [type="text"]{
   border: none;
@@ -296,10 +316,16 @@ footer{
 
 /*nuevo icon */
 .x-icon{
+  content: "";
   background: url(../img/recursos/error.png);
   background-repeat: no-repeat;
   background-size: 20px;
-  content: "";
-  text-align: right;
+  display: block;
+  width: 5%;
+  height: 21px;
+  position: absolute;
+  right: 1px;
+  top: 1%;
+  visibility: visible;
 
 }

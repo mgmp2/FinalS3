@@ -21,31 +21,31 @@ ciud.addEventListener("blur", validadCiudad);
 
 function validarphone(){
   if(!expRegTelf.test(phone.value) ){
-    phone.classList.add("x-icon");
+    phone.nextElementSibling.classList.add("x-icon");
   } else{
-    phone.classList.remove("x-icon");
+    phone.nextElementSibling.classList.remove("x-icon");
   }
 }
 
 function validarNombre(){
   if(!expRegName.test(nom.value) ){
-    nom.classList.add("x-icon");
+    nom.nextElementSibling.classList.add("x-icon");
   } else{
-    nom.classList.remove("x-icon");
+    nom.nextElementSibling.classList.remove("x-icon");
   }
 }
 function validarMail(){
   if (!expRegEmail.test(mail.value) ) {
-    mail.classList.add("x-icon");
+    mail.nextElementSibling.classList.add("x-icon");
   } else{
-    mail.classList.remove("x-icon");
+    mail.nextElementSibling.classList.remove("x-icon");
   }
 }
 
 function validadCiudad(){
   if (!expRegName.test(ciud.value) ) {
-    ciud.classList.add("x-icon");
+    ciud.nextElementSibling.classList.add("x-icon");
   } else{
-    ciud.classList.remove("x-icon");
+    ciud.nextElementSibling.classList.remove("x-icon");
   }
 }
