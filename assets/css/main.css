@@ -110,12 +110,17 @@ video{
 }
 
   /*--------------------FORMULARIO --------------------*/
-.contenedor-main {
+.first-part {
+  position: relative;
+}
+.first-form {
+  right: 0;
   background: #fff;
   float: right;
   padding: 20px 63px;
   width: 42%;
   margin-top: 8%;
+  position: absolute;
 }
 .form-titulo {
   color: #352384;
@@ -190,7 +195,7 @@ div > .second-right {
 .third-part {
   position: absolute;
   width: 100%;
-  margin-top: 88%;
+  margin-top: 97%;
   background: #fff;
   height: 506px;
 }
@@ -218,10 +223,9 @@ div > .second-right {
 /*--------------------------CUARTA PARTE --------------------------*/
 .fourth-part {
   position: ABSOLUTE;
-    width: 100%;
-    margin-top: 118.5%;
-    background: #694444;
-    height: 515px;
+  width: 100%;
+  margin-top: 135.2%;
+  height: 515px;
 }
 
 .fourth-left{
@@ -242,8 +246,7 @@ div > .second-right {
 .fifth-part{
   position: ABSOLUTE;
     width: 100%;
-    margin-top: 148.5%;
-    background: #694444;
+    margin-top: 173.4%;
 }
 .fifth-left{
   padding-bottom: 11.1%
@@ -253,7 +256,7 @@ div > .second-right {
 footer{
   position: absolute;
   width: 100%;
-  margin-top: 178.5%;
+  margin-top: 211.6%;
   background: #333447;
   color: white;
 }
