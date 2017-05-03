@@ -160,10 +160,10 @@ video{
 
 /*-----------SEGUNDA SECCION -----------*/
 .segunda-parte {
-  background: linear-gradient(#76278f,#2b1e66);
-    position: absolute;
-    width: 100%;
-    margin-top: 45%;
+  margin-top: 54%;
+  background-color: rgb(102, 14, 131);
+  position: absolute;
+  width: 100%;
 }
 div > .second-left {
   float: left;
