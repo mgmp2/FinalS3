@@ -42,12 +42,8 @@ header {
   width: 100%;
 }
 video{
-  position: absolute;
-  max-width: 100%;
-  min-height: 100%;
-  z-index: -200;
   top: 0px;
-  left: 0;
+  width: 100%;
 }
 .header-in{
   background-color: white;
@@ -114,6 +110,7 @@ video{
   position: relative;
 }
 .first-form {
+  top: 0;
   right: 0;
   background: #fff;
   float: right;
@@ -165,13 +162,12 @@ video{
 
 /*-----------SEGUNDA SECCION -----------*/
 .segunda-parte {
-  margin-top: 54%;
+  top: 0;
+  position: relative;
   background-color: rgb(102, 14, 131);
-  position: absolute;
   width: 100%;
 }
 div > .second-left {
-  float: left;
   padding: 1% 10%;
   color: white;
 
@@ -182,7 +178,9 @@ div > .second-left {
   font-family: 'Lato', sans-serif;
 }
 div > .second-right {
-  float: right;
+  top: -10px;
+  right: 0;
+  position: absolute;
   background: url(../img/recursos/phone.png);
   padding: 14.4%;
   background-repeat: no-repeat;
@@ -193,9 +191,9 @@ div > .second-right {
 }
 /*------------------TERCERA PARTE ------------------*/
 .third-part {
-  position: absolute;
+  top: 0;
+  position: relative;
   width: 100%;
-  margin-top: 97%;
   background: #fff;
   height: 506px;
 }
@@ -222,9 +220,10 @@ div > .second-right {
 }
 /*--------------------------CUARTA PARTE --------------------------*/
 .fourth-part {
-  position: ABSOLUTE;
+  top: 0;
+  position: relative;
+
   width: 100%;
-  margin-top: 135.2%;
   height: 515px;
 }
 
